@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmed Yassine Dridi — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">AYD<span class="dot">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mm-link">About</a></li>
+      <li><a href="#skills" class="mm-link">Skills</a></li>
+      <li><a href="#projects" class="mm-link">Projects</a></li>
+      <li><a href="#certifications" class="mm-link">Certs</a></li>
+      <li><a href="#contact" class="mm-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="grid-lines"></div>
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag reveal">Computer Engineering · IoT · Web</div>
+      <h1 class="hero-name reveal delay-1">Ahmed<br/><span class="outline-text">Yassine</span><br/>Dridi</h1>
+      <p class="hero-sub reveal delay-2">Engineering student building at the intersection of<br/><strong>embedded systems, IoT</strong> and <strong>web development</strong>.</p>
+      <div class="hero-cta reveal delay-3">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-photo reveal delay-2">
+      <div class="photo-frame">
+        <img src="photo.png" alt="Ahmed Yassine Dridi" />
+      </div>
+      <div class="photo-accent"></div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label reveal">01 — About</div>
+      <div class="about-grid">
+        <div class="about-text reveal delay-1">
+          <h2>Building things that <span class="accent">matter</span>.</h2>
+          <p>I'm a first-year Computer Engineering student specialising in <strong>Embedded Systems & IoT</strong> at a Tunisian university. I combine hardware-level thinking with web development skills to create connected, intelligent solutions.</p>
+          <p>When I'm not studying circuits or writing code, I'm running a kitchen — literally. I've worked as chef, sous-chef and counter manager at our family restaurant, which taught me leadership, pressure management and team dynamics better than any textbook.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num" data-target="4">0</span>
+              <span class="stat-label">Languages spoken</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="3">0</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="20">0</span>
+              <span class="stat-label">Years old</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-info reveal delay-2">
+          <div class="info-card">
+            <div class="info-row">
+              <span class="info-icon">📍</span>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-val">Tunis, Tunisia</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <span class="info-icon">🎓</span>
+              <div>
+                <span class="info-label">Degree</span>
+                <span class="info-val">B.Eng Computer Engineering, 1st Year</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <span class="info-icon">🔬</span>
+              <div>
+                <span class="info-label">Specialisation</span>
+                <span class="info-val">Embedded Systems & IoT</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <span class="info-icon">🌍</span>
+              <div>
+                <span class="info-label">Languages</span>
+                <span class="info-val">Arabic · French C2 · English B1 · German A2</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <span class="info-icon">🏆</span>
+              <div>
+                <span class="info-label">Baccalauréat</span>
+                <span class="info-val">Tunisia 2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label reveal">02 — Skills</div>
+      <h2 class="section-title reveal delay-1">What I work with</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal delay-1">
+          <div class="skill-icon">⚡</div>
+          <h3>Embedded Systems</h3>
+          <p>Hardware-software integration, microcontrollers, real-time programming, low-level logic design.</p>
+          <div class="skill-bar"><div class="skill-fill" data-w="70"></div></div>
+        </div>
+
+        <div class="skill-card reveal delay-2">
+          <div class="skill-icon">🌐</div>
+          <h3>Web Development</h3>
+          <p>HTML5, CSS3, JavaScript. Building responsive, modern interfaces from scratch with clean code.</p>
+          <div class="skill-bar"><div class="skill-fill" data-w="75"></div></div>
+        </div>
+
+        <div class="skill-card reveal delay-3">
+          <div class="skill-icon">📡</div>
+          <h3>IoT & Connectivity</h3>
+          <p>Connected devices, sensor integration, protocols, and real-time data pipelines for smart systems.</p>
+          <div class="skill-bar"><div class="skill-fill" data-w="65"></div></div>
+        </div>
+
+        <div class="skill-card reveal delay-1">
+          <div class="skill-icon">🎨</div>
+          <h3>UI/UX Design</h3>
+          <p>User-centred design thinking, wireframing, prototyping, accessibility, and visual hierarchy.</p>
+          <div class="skill-bar"><div class="skill-fill" data-w="70"></div></div>
+        </div>
+
+        <div class="skill-card reveal delay-2">
+          <div class="skill-icon">👨‍🍳</div>
+          <h3>Leadership</h3>
+          <p>Proven team management experience. Kitchen-forged: decision-making under pressure, delegation, initiative.</p>
+          <div class="skill-bar"><div class="skill-fill" data-w="85"></div></div>
+        </div>
+
+        <div class="skill-card reveal delay-3">
+          <div class="skill-icon">🧠</div>
+          <h3>Problem Solving</h3>
+          <p>Hackathon participant. Rapid prototyping and creative engineering under time and resource constraints.</p>
+          <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+        </div>
+
+      </div>
+
+      <!-- Language bars -->
+      <div class="lang-section reveal delay-2">
+        <h3>Language Proficiency</h3>
+        <div class="lang-bars">
+          <div class="lang-item">
+            <div class="lang-meta"><span>Arabic</span><span>Native</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="100"></div></div>
+          </div>
+          <div class="lang-item">
+            <div class="lang-meta"><span>French</span><span>C2</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="95"></div></div>
+          </div>
+          <div class="lang-item">
+            <div class="lang-meta"><span>English</span><span>B1</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="55"></div></div>
+          </div>
+          <div class="lang-item">
+            <div class="lang-meta"><span>German</span><span>A2</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="30"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label reveal">03 — Projects</div>
+      <h2 class="section-title reveal delay-1">Recent work</h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured reveal delay-1">
+          <div class="project-tag">Web Dev</div>
+          <h3>GoMyCode Capstone</h3>
+          <p>Full responsive web project built during a 3-week intensive bootcamp. Covered semantic HTML5, advanced CSS layouts, and interactive JavaScript components.</p>
+          <div class="project-stack">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-btn">View Code →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-2">
+          <div class="project-tag">Hackathon</div>
+          <h3>Hackathon Project</h3>
+          <p>Rapid-prototyped a solution under time pressure in a team environment. Focused on innovative problem-solving and collaborative engineering.</p>
+          <div class="project-stack">
+            <span>Team</span><span>Prototype</span><span>Innovation</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-btn">Details →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-3">
+          <div class="project-tag">IoT</div>
+          <h3>Embedded Systems Lab</h3>
+          <p>Academic projects exploring microcontroller programming, sensor interfacing, and real-time data acquisition as part of my engineering curriculum.</p>
+          <div class="project-stack">
+            <span>C/C++</span><span>Arduino</span><span>Sensors</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-btn">Coming Soon →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-1">
+          <div class="project-tag">Design</div>
+          <h3>This Portfolio</h3>
+          <p>Designed and built entirely from scratch — no templates, no frameworks. Pure HTML, CSS and JS with a focus on smooth UX and clean aesthetics.</p>
+          <div class="project-stack">
+            <span>HTML</span><span>CSS</span><span>JS</span><span>UX/UI</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/" class="proj-btn" target="_blank">GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-label reveal">04 — Credentials</div>
+      <h2 class="section-title reveal delay-1">Certifications & Education</h2>
+      <div class="certs-grid">
+
+        <div class="cert-card reveal delay-1">
+          <div class="cert-year">2025</div>
+          <div class="cert-body">
+            <div class="cert-icon">🎓</div>
+            <h3>Baccalauréat Tunisien</h3>
+            <p>National secondary education diploma — Tunisia</p>
+          </div>
+        </div>
+
+        <div class="cert-card reveal delay-2">
+          <div class="cert-year">2024</div>
+          <div class="cert-body">
+            <div class="cert-icon">🇩🇪</div>
+            <h3>Goethe Institut</h3>
+            <p>End-of-course German language test — <strong>Mention Bien</strong></p>
+          </div>
+        </div>
+
+        <div class="cert-card reveal delay-3">
+          <div class="cert-year">2024</div>
+          <div class="cert-body">
+            <div class="cert-icon">🇬🇧</div>
+            <h3>British Council</h3>
+            <p>End-of-course English assessment test</p>
+          </div>
+        </div>
+
+        <div class="cert-card reveal delay-1">
+          <div class="cert-year">2024</div>
+          <div class="cert-body">
+            <div class="cert-icon">💻</div>
+            <h3>GoMyCode</h3>
+            <p>3-week Web Development Certificate — HTML, CSS, JavaScript</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Timeline -->
+      <div class="timeline reveal delay-2">
+        <h3>Journey so far</h3>
+        <div class="tl-items">
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-date">2024 – Present</span>
+              <strong>B.Eng Computer Engineering</strong>
+              <p>Embedded Systems & IoT · 1st Year</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-date">2024</span>
+              <strong>GoMyCode Web Dev Bootcamp</strong>
+              <p>3 weeks intensive HTML/CSS/JS</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-date">2024</span>
+              <strong>Language Certifications</strong>
+              <p>Goethe Institut (DE) + British Council (EN)</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-date">2025</span>
+              <strong>Baccalauréat Tunisien</strong>
+              <p>Secondary school diploma</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot active"></div>
+            <div class="tl-content">
+              <span class="tl-date">Now</span>
+              <strong>Open to Internships & Collaborations</strong>
+              <p>Looking for exciting engineering projects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label reveal">05 — Contact</div>
+      <h2 class="section-title reveal delay-1">Let's work together</h2>
+      <div class="contact-grid">
+        <div class="contact-left reveal delay-1">
+          <p class="contact-intro">I'm currently open to internship opportunities, freelance projects, and collaboration on interesting engineering or web development work.</p>
+          <div class="contact-links">
+            <a href="mailto:ahmedyassine.dridi@email.com" class="c-link">
+              <span class="c-icon">✉</span>
+              <span>ahmedyassine.dridi@email.com</span>
+            </a>
+            <a href="https://github.com/" target="_blank" class="c-link">
+              <span class="c-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </span>
+              <span>github.com/ahmedyassinedridi</span>
+            </a>
+            <a href="https://linkedin.com/" target="_blank" class="c-link">
+              <span class="c-icon">in</span>
+              <span>LinkedIn Profile</span>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form reveal delay-2" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="What's this about?" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell me about your project…" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary full">Send Message →</button>
+          <div class="form-success" id="formSuccess">Message sent! I'll get back to you soon.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <span class="nav-logo">AYD<span class="dot">.</span></span>
+      <p>© 2025 Ahmed Yassine Dridi · Built with passion in Tunis 🇹🇳</p>
+      <div class="footer-links">
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
